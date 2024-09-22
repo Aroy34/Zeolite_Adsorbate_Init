@@ -1,5 +1,11 @@
 # Zeolite_Adsorbate_Init
 
+<h1 style="display: inline;">
+    <img src="path/to/logo.png" alt="Logo" width="50" style="vertical-align: middle;">
+    Your Heading
+</h1>
+
+
 Reference : https://github.com/haoyuanchen/RASPA-tools/tree/master/MOFBigAdsorbateInitializer
 
 Check example folder
