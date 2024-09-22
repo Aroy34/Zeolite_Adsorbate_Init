@@ -62,6 +62,6 @@ Run python cifgen.py al-cha.cif 999
 ![Plot of Propionic Acid in Chabasite](https://github.com/Aroy34/Zeolite_Adsorbate_Init/blob/e784433c6b4cc4150877b1f1400463cf9486b940/propionic_acid_in_chabasite/image.png)
 
 ## Ready for DFT calcualtions
-Convert the cif filethat you generated int he above step to POSCAR file or directly use the cif file for runnign DFT calcualtions
+Convert the cif file that you generated in the above step to POSCAR file or directly use the cif file for running DFT calculations
 
 
