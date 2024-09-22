@@ -16,6 +16,7 @@ Raspa 2, Python
 
 #For running RASPA calcualtion on HPC:
 
+```bash
 #!/bin/bash
 #SBATCH --job-name=cha_prop
 #SBATCH --nodes=1
@@ -35,5 +36,7 @@ module list
 which mpirun
 
 /home/aroy34/.conda/pkgs/raspa2-2.0.50-h678ec8c_0/bin/simulate simulation.input
-## Above path to RASPA simulate file will be different for your system ##
+
+# Above path to RASPA simulate file will be different for your system
+```
 
