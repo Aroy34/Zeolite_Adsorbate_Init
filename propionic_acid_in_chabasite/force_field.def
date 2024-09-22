@@ -1,0 +1,26 @@
+# rules to overwrite
+0
+# number of defined interactions
+19
+# type      type2       interaction
+O_Z0 Z0 lennard-jones 2000000.00  1.5
+H_Z1 Z1 lennard-jones 2000000.00  1.5
+O_Z0 Z1 lennard-jones 10  2.75
+H_Z1 Z0 lennard-jones 10  2.75
+Si O_a lennard-jones 43.42  2.66 // TraPEEZeo
+Si H lennard-jones 43.42  2.66 // TraPEEZeo
+Si C lennard-jones 4.19   4.34 // TraPEEZeo
+Si O_Z0 lennard-jones 10  2.75
+Si H_Z1 lennard-jones 10  2.75
+O O_a lennard-jones 67.38   3.16 // TraPEEZeo
+O H lennard-jones 67.38   3.16 // TraPEEZeo
+O C lennard-jones 6.51  4.84 // TraPEEZeo
+O O_Z0 lennard-jones 10  2.75
+O H_Z1 lennard-jones 10  2.75
+Al O_a lennard-jones 10  2.75 // TraPEEZeo
+Al H lennard-jones 10  2.75 // TraPEEZeo
+Al C lennard-jones 4.19   4.34 // TraPEEZeo
+Al O_Z0 lennard-jones 43.42  2.66
+Al H_Z1 lennard-jones 43.42  2.66
+# mixing rules to overwrite
+0

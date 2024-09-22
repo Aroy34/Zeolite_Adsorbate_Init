@@ -1,0 +1,25 @@
+SimulationType  MonteCarlo
+NumberOfCycles  1000
+NumberOfInitializationCycles  0
+PrintEvery  1
+CutOffVDW  12.0
+Framework  0
+FrameworkName  al-cha
+UnitCells  2 3 2
+Movies  yes
+WriteMoviesEvery  1
+ComputeEnergyHistogram  yes
+WriteEnergyHistogramEvery  1
+EnergyHistogramSize 10000000
+EnergyHistogramLowerLimit -10000000
+ComputeDensityProfile3DVTKGrid yes
+WriteDensityProfile3DVTKGridEvery 1
+ExternalTemperature  350
+Component 0 MoleculeName  propionic_acid
+            MoleculeDefinition  local
+            StartingBead  0
+            TranslationProbability 1
+            RotationProbability 1
+            ReinsertionProbability 1
+            CreateNumberOfMolecules  1
+

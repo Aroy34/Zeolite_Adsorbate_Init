@@ -1,0 +1,39 @@
+# critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
+0.0
+0.0
+0.0
+# Number Of Atoms
+11
+# Number Of Groups
+1
+# propionic_acid-group
+rigid
+# number of atoms
+11
+# atomic positions
+0 C 4.953 4.396 6.248
+1 C 4.906 5.149 4.940
+2 C 4.994 4.233 3.724
+3 H_Z1 5.139 4.678 8.109
+4 H 5.708 5.903 4.951
+5 H 3.965 5.724 4.937
+6 H 4.187 3.489 3.738
+7 H 5.947 3.686 3.710
+8 H 4.916 4.815 2.797
+9 O_a 5.141 5.242 7.308
+10 O_Z0 4.832 3.191 6.390
+# Chiral centers Bond  BondDipoles Bend  UrayBradley InvBend  Torsion Imp. Torsion Bond/Bond Stretch/Bend Bend/Bend Stretch/Torsion Bend/Torsion IntraVDW IntraCoulomb
+0 10 0 0 0 0 0 0 0 0 0 0 0 0 0
+#Bond stretch:atom n1-n2,type parameter
+0 10 RIGID_BOND
+0 9 RIGID_BOND
+0 1 RIGID_BOND
+1 4 RIGID_BOND
+1 5 RIGID_BOND
+1 2 RIGID_BOND
+2 8 RIGID_BOND
+2 6 RIGID_BOND
+2 7 RIGID_BOND
+3 9 RIGID_BOND
+# Number of config moves
+0

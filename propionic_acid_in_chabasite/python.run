@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --job-name=py
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --partition=shared
+#SBATCH --mem-per-cpu=500MB
+#SBATCH --export=ALL
+#SBATCH --time=20:00:00
+#SBATCH -A bbukows1
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=aroy34@jh.edu
+
+# Load necessary modules
+ml purge
+module load slurm/19.05.7 helpers intel/2020.1 intel-mpi/2019.8.254 hdf5/1.10.7 libbeef/0.1.2 dftd4/3.3.0
+
+# Display loaded modules and MPI information for debugging
+# module list
+# which mpirun
+rm -f *.out
+# rm *combined*
+
+
+
+python data.py
+

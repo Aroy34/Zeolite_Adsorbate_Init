@@ -1,0 +1,45 @@
+# critical constants: Temperature [T], Pressure [Pa], and Acentric factor [-]
+0.0
+0.0
+0.0
+# Number Of Atoms
+14
+# Number Of Groups
+1
+# butyric_acid-group
+rigid
+# number of atoms
+14
+# atomic positions
+0 O_Z0 6.741 6.322 5.090
+1 O_a 5.359 7.168 6.647
+2 H 3.859 5.419 5.276
+3 H 5.526 4.228 3.943
+4 H 6.209 3.583 5.375
+5 H 4.543 4.774 6.708
+6 H_Z1 6.003 7.879 6.649
+7 C 5.305 3.912 4.931
+8 C 4.763 5.090 5.721
+9 C 5.728 6.241 5.778
+10 C 4.268 3.065 4.344
+11 H 4.331 2.121 4.538
+12 H 4.331 2.748 3.292
+13 H 3.259 3.419 4.456
+# Chiral centers Bond  BondDipoles Bend  UrayBradley InvBend  Torsion Imp. Torsion Bond/Bond Stretch/Bend Bend/Bend Stretch/Torsion Bend/Torsion IntraVDW IntraCoulomb
+0 13 0 0 0 0 0 0 0 0 0 0 0 0 0
+#Bond stretch:atom n1-n2,type parameter
+0 9 RIGID_BOND
+1 9 RIGID_BOND
+1 6 RIGID_BOND
+2 8 RIGID_BOND
+3 7 RIGID_BOND
+4 7 RIGID_BOND
+5 8 RIGID_BOND
+7 10 RIGID_BOND
+7 8 RIGID_BOND
+8 9 RIGID_BOND
+10 12 RIGID_BOND
+10 13 RIGID_BOND
+10 11 RIGID_BOND
+# Number of config moves
+0
