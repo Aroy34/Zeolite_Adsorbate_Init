@@ -14,7 +14,7 @@ Raspa 2, Python
   4. pseudo_atom.def file
   5. simulation.input file
 
-#For running RASPA calcualtion on HPC:
+# For running RASPA calcualtion on HPC:
 
 ```bash
 #!/bin/bash
@@ -40,7 +40,7 @@ which mpirun
 # Above path to RASPA simulate file will be different for your system
 ```
 
-#For visulising the energy fluctuation
+# For visulising the energy fluctuation
 python data.py or sbatch python.run
 
 ![Plot of Propionic Acid in Chabasite](propionic_acid_in_chabasite/plot.png)
