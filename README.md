@@ -1,7 +1,8 @@
 <h1 style="display: inline;">
-    <img src="path/to/logo.png" alt="Logo" width="50" style="vertical-align: middle;">
+    <img src="logo.png" alt="Logo" width="50" style="vertical-align: middle;">
     Zeolite_Adsorbate_init
 </h1>
+
 
 
 Reference : https://github.com/haoyuanchen/RASPA-tools/tree/master/MOFBigAdsorbateInitializer
