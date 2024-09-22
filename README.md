@@ -43,5 +43,5 @@ which mpirun
 #For visulising the energy fluctuation
 python data.py or sbatch python.run
 
-propionic_acid_in_chabasite/plot.png
+![Plot of Propionic Acid in Chabasite](propionic_acid_in_chabasite/plot.png)
 
