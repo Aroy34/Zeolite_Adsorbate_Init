@@ -4,17 +4,17 @@ Reference : https://github.com/haoyuanchen/RASPA-tools/tree/master/MOFBigAdsorba
 
 Check example folder
 
-# Necessary tools
+## Necessary tools
 Raspa 2, Python
 
-# Files needed to start a RASPA calcualtion
+## Files needed to start a RASPA calcualtion
   1. guest molecule .def file
   2. framework's .cif file (cif files generated from ASE will cause some issue *Will be expanding on how to fix it later*)
   3. force_field.def or mixing_rule.def 
   4. pseudo_atom.def file
   5. simulation.input file
 
-# For running RASPA calcualtion on HPC:
+## For running RASPA calcualtion on HPC:
 
 ```bash
 #!/bin/bash
@@ -40,8 +40,15 @@ which mpirun
 # Above path to RASPA simulate file will be different for your system
 ```
 
-# For visulising the energy fluctuation
+## For visulising the energy fluctuation
 python data.py or sbatch python.run
 
 ![Plot of Propionic Acid in Chabasite](propionic_acid_in_chabasite/plot.png)
+
+## For generating combined .cif file (framework + adsorbate)
+
+Run python cifgen.py al-cha.cif 999
+
+{ python cifgen.py framwork.cif [cycle number - 1] }
+
 
