@@ -51,6 +51,6 @@ Run python cifgen.py al-cha.cif 999
 
 { python cifgen.py framwork.cif [cycle number - 1] }
 
-!(https://github.com/Aroy34/Zeolite_Adsorbate_Init/blob/e784433c6b4cc4150877b1f1400463cf9486b940/propionic_acid_in_chabasite/image.png)
+![Plot of Propionic Acid in Chabasite](https://github.com/Aroy34/Zeolite_Adsorbate_Init/blob/e784433c6b4cc4150877b1f1400463cf9486b940/propionic_acid_in_chabasite/image.png)
 
 
