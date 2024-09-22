@@ -2,9 +2,9 @@
 
 Reference : https://github.com/haoyuanchen/RASPA-tools/tree/master/MOFBigAdsorbateInitializer
 
-Check example
+Check example folder
 
-# Necessary modules
+# Necessary tools
 Raspa 2, Python
 
 # Files needed to start a RASPA calcualtion
@@ -40,3 +40,6 @@ which mpirun
 # Above path to RASPA simulate file will be different for your system
 ```
 
+#For visulising the energy fluctuation
+python data.py or sbatch python.run
+propionic_acid_in_chabasite/plot.pdf
