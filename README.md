@@ -1,7 +1,10 @@
-<h1 style="display: inline;">
-    <img src="logo.png" alt="Logo" width="50" style="vertical-align: middle;">
-    Zeolite_Adsorbate_init
-</h1>
+<div style="text-align: center;">
+    <h1 style="display: inline;">
+        <img src="logo.png" alt="Logo" width="50" style="vertical-align: middle;">
+        Zeolite_Adsorbate_init
+    </h1>
+</div>
+
 
 
 
