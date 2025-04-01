@@ -2,6 +2,8 @@ import sys
 import os
 from ase.io import *
 from ase import Atoms
+
+# asdasdasd
 # Logical comment
 # Get input CIF file and No. of frames to save
 mofcif = sys.argv[1]
